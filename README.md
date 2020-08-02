@@ -8,7 +8,12 @@ Christopher Alexander Says, "Each pattern describes a problem which occurs over 
 
 
 #### 1.Decorator
-Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclass for extending functionality. [find here detail with example](https://github.com/hbrawnak/php-design-pattern/blob/master/Decorator/index.php#L4)
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclass for extending functionality. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Decorator/index.php#L4)
+
+##### Applicability:
+   * To add responsibilities to individual objects dynamically and transparently, that is, without affecting other objects.
+   * For responsibilities that can be withdrawn.
+   * When extension by subclassing is impractical. Sometimes many independent extensions are possible and would produce an explosion of subclasses to support every combination. Or a class definition may be hidden or otherwise unavailable for subclassing.
 
 #### 2.Adapter
 Covert the interface of a class into another interface clients expects. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Adapter/index.php#L4)
