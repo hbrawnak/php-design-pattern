@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * Covert the interface of a class into another interface clients expects. Adapter lets classes work
+ * together that couldn't otherwise because of incompatible interfaces.
+ * */
+
 require 'vendor/autoload.php';
 
 use Adapter\Book;
