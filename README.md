@@ -1,6 +1,6 @@
-#PHP Design Pattern
+# PHP Design Pattern
 
-###What is Design Pattern?
+### What is Design Pattern?
 
 To write reusable code is important. Design Pattern helps you to write reusable code. 
 
