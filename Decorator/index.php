@@ -1,13 +1,13 @@
 <?php
 
 /*
- * A decorator allows us to dynamically extend the behavior of a particular object at runtime, without
- * needing to resort to unnecessary inheritance.
- *
- * Know as Wrapper
- *
- * Other Definition: Attach additional responsibilities to an object dynamically. Decorators provide a
+ * Attach additional responsibilities to an object dynamically. Decorators provide a
  * flexible alternative to subclass for extending functionality.
+ *
+ * Known as Wrapper
+ *
+ * Other Definition: A decorator allows us to dynamically extend the behavior of a particular object
+ * at runtime, without needing to resort to unnecessary inheritance.
  * */
 
 interface CarService
