@@ -15,5 +15,5 @@ Covert the interface of a class into another interface clients expects. Adapter 
 ##### Applicability:
    * You want to use and existing class, and its interface does not match the one your need.
    * You want to create a reusable class the cooperates with unrelated or unforeseen classes, that is, classes that don't necessarily have compatible interfaces.
-   * You need to use several existing subclasses, but it's impractical to adapt their interface by subclassing every one. An object adapter can adapt the interface of its parent class.
+   * You need to use several existing subclasses, but it's impractical to adapt their interface by subclassing every one. An object adapter can adapt the interface of its parent class. (object adapter only)
     
