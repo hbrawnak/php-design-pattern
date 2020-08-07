@@ -30,4 +30,19 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
   * When the commin behavior among subclasses should be factored and localized in a common class to avoid code duplication. This is a good example of "refactoring to generalize" as described by Opdyke and Johnson. You first identify the differences in the existing code and then separate the differences into new operations. Finally, you replace the differing code with a template method that calls one these new operations.
   * To control subclasses extensions. You can define a template method that calls "hook" operations at specific points, thereby permitting extensions only at those points.
 
+ #### 2.Strategy
+ Define a family of algorithm, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Strategy/index.php#L4)
+ 
+ ##### Applicability:
+ Use the Strategy pattern when
+ 
+  * Many related classes differ only in their behavior. Strategies provide a way to configure a class with one of many behaviors.
+  
+  * You need different variant of an algorithm. For example, you might need define algorithms reflecting different space/time trade-offs. Strategies can be used when these variants are implemented as a class hierarchy of algorithm.
+  
+  * An algorithm uses data that clients shouldn't know about. Use the strategy pattern to avoid exposing complex, algorithm-specific data structures.
+  
+  * A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
+  
+ 
  
