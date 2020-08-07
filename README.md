@@ -30,7 +30,7 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
   * When the commin behavior among subclasses should be factored and localized in a common class to avoid code duplication. This is a good example of "refactoring to generalize" as described by Opdyke and Johnson. You first identify the differences in the existing code and then separate the differences into new operations. Finally, you replace the differing code with a template method that calls one these new operations.
   * To control subclasses extensions. You can define a template method that calls "hook" operations at specific points, thereby permitting extensions only at those points.
 
- #### 2.Strategy
+ #### 4.Strategy
  Define a family of algorithm, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Strategy/index.php#L4)
  
  ##### Applicability:
