@@ -44,5 +44,12 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
   
   * A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
   
+  
+  
+  --------
+ Sources:
+ - [Book:](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) Design Patterns
+ Element of Reusable Object-Oriented Software
+ - [Laracasts](https://laracasts.com)
  
  
