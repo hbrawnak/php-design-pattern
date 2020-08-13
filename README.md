@@ -63,6 +63,15 @@ Use the Chain of Responsibility pattern when
   
   * The set of objects that can handle a request should be specified dynamically. 
   
+  #### 6.Factory Method
+  Define an interface for creating an object, but let subclasses decide which to instantiate. Factory Method lets a class defer instantiation to subclasses.
+  
+ ##### Applicability:
+ Use the Factory Method pattern when 
+   * A class can't anticipate the class of object it must create.
+   *  A class wants its subclasses to specify the objects it creates.
+   * Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclasses is the delegate.
+  
   --------
  Sources:
  - [Book:](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612) Design Patterns
