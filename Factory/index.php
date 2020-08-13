@@ -49,6 +49,8 @@ class Tesla implements Car
     }
 }
 
-$car = AutomobileFactory::make('tesla');
+$tesla   = AutomobileFactory::make('tesla');
+print_r($tesla->say());
 
-print_r($car->say());
+$bugatti = AutomobileFactory::make('bugatti');
+print_r($bugatti->say());
