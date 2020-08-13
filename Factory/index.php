@@ -18,33 +18,37 @@ class AutomobileFactory
     }
 }
 
+interface Car
+{
+    public function say();
+}
 
-class Bugatti
+class Bugatti implements Car
 {
     public function __construct()
     {
         echo "Creating Bugatti \n";
     }
 
-    public function getName()
+    public function say()
     {
         return "I'm Bugatti. \n";
     }
 }
 
-class Tesla
+class Tesla implements Car
 {
     public function __construct()
     {
         echo "Creating Tesla \n";
     }
 
-    public function getName()
+    public function say()
     {
         return "I'm Tesla. \n";
     }
 }
 
-$car = AutomobileFactory::make('Bugatti');
+$car = AutomobileFactory::make('tesla');
 
-print_r($car->getName());
+print_r($car->say());
