@@ -66,6 +66,15 @@ Use the Chain of Responsibility pattern when
    * A class can't anticipate the class of object it must create.
    *  A class wants its subclasses to specify the objects it creates.
    * Classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclasses is the delegate.
+   
+#### 7.Observer
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. It's also known dependents, pub-sub. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Observer/index.php#L3)
+
+ ##### Applicability:
+ Use the Observer pattern when 
+  * An abstraction has two aspects, one dependent on the other. Encapsulating these aspects in separate objects lets you vary and reuse them independently.
+  * A change to one object requires changing others, and you don't know how many objects need to be changed.
+  * An object should be able to notify other objects without making assumptions about who these objects are. In other words, you don't want these objects tightly coupled.
   
   --------
  Sources:
