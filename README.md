@@ -59,7 +59,7 @@ Use the Chain of Responsibility pattern when
   * The set of objects that can handle a request should be specified dynamically. 
   
   #### 6.Factory Method
-  Define an interface for creating an object, but let subclasses decide which to instantiate. Factory Method lets a class defer instantiation to subclasses.
+  Define an interface for creating an object, but let subclasses decide which to instantiate. Factory Method lets a class defer instantiation to subclasses. [example](https://github.com/hbrawnak/php-design-pattern/blob/master/Factory/index.php#L3)
   
  ##### Applicability:
  Use the Factory Method pattern when 
